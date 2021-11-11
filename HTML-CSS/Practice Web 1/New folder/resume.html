@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form </title>
+</head>
+<body>
+    <center>
+    <form >
+        <fieldset style="width: 50% ;background-color: hotpink;">
+            <legend style="text-align: center ; font-weight: bold; font-style: oblique; font-size: 50px;">Registration</legend>
+            <table style="color: darkred;">
+                <tr><td>Name: <input type="text" placeholder="Enter Your Name"></td> </tr>
+                <tr><td>Contact: <input type="number" placeholder="Enter Your Contact"></td></tr>
+                <tr><td>EmailID: <input type="email" placeholder="Enter Your EmailID"></td></tr> 
+                <tr><td>Password: <input type="password" placeholder="Enter Your password"></td></tr> 
+                <tr><td>Confirm Password: <input type="password" placeholder="Enter your password again"></td></tr>
+                <td><button value="Forgot Password"> Forgot Password</button></td>
+               </table>
+               
+            Address: <textarea rows="5" cols="10" placeholder="Enter your Address Here"></textarea><br><br>
+            City: 
+            <input type="text" id="List" list="li">
+               <datalist id="li" >
+                    <option value="Mumbai">
+                    <option value="Agra">
+                    <option value="Ahmedabad">
+                    <option value="Bangalore">   
+                    <option value="Pune">
+                    <option value="Kolkata">
+                    <option value="Chennai">
+                    <option value="Surat">
+                    <option value="Rajkot">
+                    <option value="Jaipur">
+                    <option value="Patna">
+                    <option value="Firozabad">    
+               </datalist>
+               <br><br>
+
+               State(City):
+               <select>
+                   <optgroup label="Maharashtra">
+                       <option>Pune</option>
+                       <option>Mumbai</option>
+                   </optgroup>
+               
+                <optgroup label="M.P.">
+                <option>bhopal</option>
+                <option>Indore</option>
+              </optgroup>
+            </select>
+            <br><br>
+            
+
+            Gender:<input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+
+            Course:
+             <input type="checkbox" value="HTML">HTML
+             <input type="checkbox" value="CSS">CSS
+             <input type="checkbox" value="Java">Java
+             <input type="checkbox" value="Python">Python
+             <br><br>
+
+             Upload Your Resume: <input type="file">
+             <button type="submit" value="Upload">Upload</button>
+               <br><br>
+
+            <button type="submit" value="Submit">Submit</button>
+            <button type="reset" value="reset">Reset</button>
+
+
+        </fieldset>
+
+    </form>
+</center>
+    
+</body>
+</html>

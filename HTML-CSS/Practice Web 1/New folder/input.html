@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/input.html" method = "get">
+        <img src="Passportsize_photo.jpg" Width= 50px height=70 alt="The image is unavailable"><br/>
+        Name: <input size=40 placeholder ="Please enter username" maxlength =4 minlength=2 type="text" name = "uname"/><br/>
+        Father's name: <input pattern="[A-Za-z]{4,}" placeholder="Enter your father's name"> <br>
+        Age: <input type="text" name = "age"/><br>
+        Password:<input type="password" pattern="(?=.*/d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+        Gender: <input type="radio" gender = "M"/> Male
+        <input type="radio" checked gender = "F"/> Female <br>
+        Technologies:
+            <input type="checkbox" name="tech1" value= "html"/>HTML
+            <input type="checkbox" name="tech2" value="css"/>CSS
+            <input type="checkbox" name= "tech3" value= "js"/>JavaScript <br>
+        Branch:
+        <input list="Branches"/>
+        <datalist id="Branches">
+            <option value="Extc">Electronics & Telecommunication</option>
+            <option value="Comps">Computers</option>
+            <option value="Mech">Mechanical</option>
+            <option value="Elec">Electrical</option>
+        </datalist><br>
+        City Lived in:
+            <select name = "city" >
+                <option>Mumbai</option>
+                <option>Pune</option>
+                <option value="BGL" selected> Bangluru</option>
+                <option>Rajasthan</option>
+                <option>Chennai</option>
+                <option>Gurgaon</option>
+            </select><br>
+            Upload Resume: <input type="file" multiple> <br>
+            Email Id: <input type="email"/> <br>
+            Contact no.: <input type="tel" pattern="[0-9]{10}">  <br>
+            job joining date: <input type="datetime-local"> <br>
+            Your favorite color: 
+            <input type="color"/><br>
+            Your Date Of Birth:<input type = "date"/> <br>
+            Birth Time:<input type="time"/> <br>
+            Address:<textarea cols = "20" rows = "2">
+            </textarea> <br>
+            <input type="button" value= "click me"/>
+            <input type="submit" value ="Submit form"/>
+            <input type="reset" value = "Reset"/>
+        </form>
+</body>
+</html>

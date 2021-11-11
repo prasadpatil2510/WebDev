@@ -1,0 +1,9 @@
+
+div + p{
+    font-weight: bolder;
+    background-color: aqua;
+}
+
+/* div > p{
+    color: red;
+} */

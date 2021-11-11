@@ -1,0 +1,26 @@
+table{
+    border: solid black;
+}
+th{
+    background-color: rgb(55, 5, 119);
+    color: whitesmoke;
+}
+#customers tr:nth-child(odd){
+    background-color: rgb(123, 32, 214);
+    color: white;
+}
+#customers tr:hover {
+    background-color: rgba(123, 32, 214, 0.8) ;
+    color: white;
+}
+
+#customers th{
+    padding-top: auto;
+    padding-bottom: auto;
+    text-align: center;
+    width: 5%;
+}
+
+#customers  th:hover{
+    font-size: 200%;
+}

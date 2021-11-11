@@ -1,0 +1,20 @@
+.dotted{
+    border-style: dotted;
+    border-width: thick;
+    border-color: red;
+    border-right-style: hidden ;
+    border-right: tomato;
+
+}
+
+.dashed{
+    border-style: dashed;
+    border-color: aqua;
+    border-left-style:ridge ;
+    border-left-color: cadetblue;
+}
+
+.groove{
+   border: ridge blue 20px;
+   border-left: 0.5cm red ridge;
+}

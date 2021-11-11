@@ -1,0 +1,32 @@
+/* a:hover{
+    background-color: aquamarine;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: black;
+}
+
+div:hover{
+    color: red;
+}
+
+a.modern:hover{
+    font-size: larger;
+}
+
+p::selection{
+    background-color: azure;
+    color: brown;
+} */
+
+
+
+
+
+.inset{
+    border-style: inset;
+}
